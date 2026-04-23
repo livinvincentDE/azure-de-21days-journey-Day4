@@ -13,7 +13,17 @@
 ![Governance](https://img.shields.io/badge/Governance-Purview-8B7D6B?style=flat-square&logo=microsoft)
 ![Data Format](https://img.shields.io/badge/Format-Delta%20Lake-004687?style=flat-square&logo=databricks)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-livinvincentDE-181717?style=flat-square&logo=github)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+---
+
+## 🔗 Quick Links
+
+📂 **Repository:** [azure-de-21days-journey-Day4](https://github.com/livinvincentDE/azure-de-21days-journey-Day4)  
+👤 **Author:** [livinvincentDE](https://github.com/livinvincentDE)  
+⭐ **Star this repo** if you found it helpful!  
+📖 **Full documentation** available in the repository  
 
 ---
 
@@ -86,7 +96,7 @@ This project demonstrates **enterprise-grade data engineering** practices by bui
 
 ### **Step 0: Welcome Screen**
 
-![Welcome Screen](./welcomescreen.png)
+![Welcome Screen](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/welcomescreen.png)
 
 **Overview:** Microsoft Purview portal landing page showing unified governance capabilities across Microsoft 365, Azure, AWS, Snowflake, and other cloud platforms.
 
@@ -99,7 +109,7 @@ This project demonstrates **enterprise-grade data engineering** practices by bui
 
 ### **Step 1: Data Source Registration**
 
-![Data Sources Overview](./step1.png)
+![Data Sources Overview](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step1.png)
 
 **What's Shown:**
 - **Data Map** section displaying registered data sources in both Map View and Table View
@@ -126,7 +136,7 @@ Data Source: adls-sales-source
 
 ### **Step 2: Register Data Source Dialog**
 
-![Register Data Source](./step2.png)
+![Register Data Source](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step2.png)
 
 **What's Shown:**
 Complete dialog for registering new data sources with multiple connector options:
@@ -153,7 +163,7 @@ Azure                          Database                Services
 
 ### **Step 3: Source Details View**
 
-![Data Source Details](./step3.png)
+![Data Source Details](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step3.png)
 
 **What's Shown:**
 Detailed view of the **adls-sales-source** data source after registration:
@@ -180,7 +190,7 @@ Shows upstream container connection in visual graph format
 
 ### **Step 4: Scan Configuration**
 
-![Scan Configuration Dialog](./step4.png)
+![Scan Configuration Dialog](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step4.png)
 
 **What's Shown:**
 Configuration wizard for scanning the ADLS data source
@@ -217,7 +227,7 @@ Before scan setup, the managed identity must have:
 
 ### **Step 5: Scan Scope Selection**
 
-![Scope Configuration](./step5.png)
+![Scope Configuration](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step5.png)
 
 **What's Shown:**
 Asset selection dialog for defining scan boundaries
@@ -251,7 +261,7 @@ adls-sales-source (ADLS Gen2)
 
 ### **Step 6: Scan Trigger Configuration**
 
-![Scan Trigger Setup](./step6.png)
+![Scan Trigger Setup](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step6.png)
 
 **What's Shown:**
 Options for when and how often scans execute
@@ -283,7 +293,7 @@ For this project, **"Once"** is selected because:
 
 ### **Step 7: Scan Review & Confirmation**
 
-![Scan Review](./step7.png)
+![Scan Review](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step7.png)
 
 **What's Shown:**
 Final review of all scan configurations before execution
@@ -320,7 +330,7 @@ Button available to validate ADLS connectivity before scan
 
 ### **Step 8: Domains & Collections**
 
-![Domains View](./step8.png)
+![Domains View](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step8.png)
 
 **What's Shown:**
 Domain management interface showing the default governance container
@@ -366,7 +376,7 @@ Enterprise Root
 
 ### **Step 9: Data Assets Discovery**
 
-![Assets Discovered](./step9.png)
+![Assets Discovered](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step9.png)
 
 **What's Shown:**
 Comprehensive list of all discovered assets from the scan
@@ -411,7 +421,7 @@ For each asset:
 
 ### **Step 10: Data Catalog & Schema**
 
-![Unified Catalog View](./step10.png)
+![Unified Catalog View](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/step10.png)
 
 **What's Shown:**
 Detailed asset view in Microsoft Purview Unified Catalog showing schema and classification
@@ -459,7 +469,7 @@ city                 │ string    │ ⚡ World Cities
 
 ### **Step 11: Welcome Portal**
 
-![Portal Welcome Screen](./datalineage_check.png)
+![Portal Welcome Screen](https://raw.githubusercontent.com/livinvincentDE/azure-de-21days-journey-Day4/main/screenshot/datalineage_check.png)
 
 **What's Shown:**
 Microsoft Purview portal home with multi-cloud integration overview
@@ -1037,10 +1047,12 @@ print(f"Validation Report: {validation_report}")
 
 ## 📚 Project Artifacts
 
+**📂 Repository:** [azure-de-21days-journey-Day4](https://github.com/livinvincentDE/azure-de-21days-journey-Day4)
+
 ```
 project-root/
 ├── README.md (this file)
-├── screenshots/
+├── screenshot/
 │   ├── welcomescreen.png
 │   ├── step1.png
 │   ├── step2.png
