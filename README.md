@@ -35,7 +35,6 @@ This project demonstrates **enterprise-grade data engineering** practices by bui
 ✅ **Transforms** data using PySpark within Microsoft Fabric (Medallion Architecture)  
 ✅ **Catalogs** all assets using Microsoft Purview for discovery & governance  
 ✅ **Classifies** sensitive PII automatically (GDPR/HIPAA compliant)  
-✅ **Visualizes** insights through Power BI dashboards  
 
 **Problem Solved:** Organizations lose visibility over scattered data and struggle with governance. This solution provides unified cataloging, automated classification, and enterprise-grade data lineage.
 
